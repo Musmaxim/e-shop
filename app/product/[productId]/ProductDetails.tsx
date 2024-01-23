@@ -75,7 +75,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
         return { ...prev, selectedImg: value };
       });
     },
-    [cartProduct.selectedImg]
+    []
   );
 
   const handleQtyIncrease = useCallback(() => {
