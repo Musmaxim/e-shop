@@ -1,0 +1,22 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "CockroachDB",
+            "name": "User",
+            "database": "e-shop",
+            "username": "musmaxim@gmail.com"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "CockroachDB",
+            "name": "Data",
+            "database": "e-shop",
+            "username": "Max"
+        }
+    ]
+}
